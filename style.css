@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -27,7 +27,9 @@ body {
   text-align: center;
   color: #6070ff;
   margin: 16px;
+
   /* padding: 10px 12px 10px 12px; */
+
   /* margin-right: 15px; */
 }
 
@@ -35,7 +37,7 @@ body {
   /* position: absolute; */
   width: 54px;
   height: 16px;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -48,7 +50,7 @@ body {
 h2 {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   top: 114px;
   left: 24px;
   font-style: normal;
@@ -66,7 +68,7 @@ p {
   height: 146px;
   top: 276px;
   left: 24px;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -119,7 +121,7 @@ p {
 .connect {
   width: 117px;
   height: 24px;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -136,4 +138,13 @@ p {
   left: 338px;
   border-radius: 1.33px;
   background-color: #000;
+}
+
+.menu-icon{
+  /* position: absolute; */
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 8px;
+  line-height: 20px;
 }
