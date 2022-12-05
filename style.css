@@ -80,33 +80,6 @@ p {
   margin-left: 24px;
 }
 
-.bar1 {
-  width: 16px;
-  top: 7px;
-  right: 4px;
-
-  /* position: absolute; */
-  background-color: #acb7c3;
-  border: 2px solid;
-  margin-right: 50px;
-}
-
-.bar2 {
-  width: 16px;
-  top: 12px;
-  right: 4px;
-  position: absolute;
-  border: 2px solid #acb7c3;
-}
-
-.bar3 {
-  width: 16px;
-  top: 17px;
-  right: 4px;
-  position: absolute;
-  border: 2px solid #acb7c3;
-}
-
 .social-icons {
   position: absolute;
   display: flex;
