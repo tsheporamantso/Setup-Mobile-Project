@@ -10,8 +10,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-
-  /* background-color: whitesmoke; */
+  background-color: whitesmoke;
   margin-top: 0;
   background-image: url("/images/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
