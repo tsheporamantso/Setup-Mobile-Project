@@ -10,11 +10,16 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   margin-top: 0;
   background-image: url("/images/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
   padding: 15px;
+  position: absolute;
+  /* width: 462px;
+  height: 587.15px;
+  top: 104px;
+  left: -34px; */
 }
 
 .logo {
@@ -27,7 +32,6 @@ body {
   text-align: center;
   color: #6070ff;
   margin: 16px;
-
 }
 
 .time {
@@ -145,6 +149,7 @@ p {
   left: 8px;
   margin-top: 118px;
   margin-left: 290px;
+
   /* line-height: 20px; */
 }
 
@@ -153,7 +158,7 @@ p {
   width: 15.27px;
   height: 10.97px;
   top: 17.33px;
-  left: 315.69px; 
+  left: 315.69px;
 }
 
 .cell-connection {
@@ -162,5 +167,4 @@ p {
   height: 10.67px;
   top: 17.67px;
   left: 293.67px;
-
 }
