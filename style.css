@@ -35,20 +35,6 @@ body {
   margin: 16px;
 }
 
-.time {
-  /* position: absolute; */
-  width: 54px;
-  height: 16px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: -0.28;
-  color: #000;
-  margin: 16px;
-}
-
 h2 {
   width: 327px;
   height: 150px;
@@ -105,16 +91,6 @@ p {
   margin-left: 24px;
 }
 
-.pwr {
-  position: absolute;
-  width: 18px;
-  height: 7.33px;
-  top: 19.33px;
-  left: 338px;
-  border-radius: 1.33px;
-  background-color: #000;
-}
-
 .menu-icon {
   position: absolute;
   width: 24px;
@@ -125,20 +101,4 @@ p {
   margin-left: 290px;
 
   /* line-height: 20px; */
-}
-
-.wifi {
-  position: absolute;
-  width: 15.27px;
-  height: 10.97px;
-  top: 17.33px;
-  left: 315.69px;
-}
-
-.cell-connection {
-  position: absolute;
-  width: 17px;
-  height: 10.67px;
-  top: 17.67px;
-  left: 293.67px;
 }
