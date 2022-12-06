@@ -10,36 +10,56 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  background-color: whitesmoke;
-  margin-top: 0;
-  background-image: url("/images/header-shapes\ mobile.svg");
+  /* background-color: #E5E5E5; */
+  /* margin: 20px 0px 0px 0px; */
+  /* background-image: url("/images/header-shapes\ mobile.svg");  */
   background-repeat: no-repeat;
-  padding: 15px;
+  padding: 13px;
   position: absolute;
 
-  /* width: 462px;
-  height: 587.15px;
+  /* border: 2px solid grey;
+  border-radius: 20px; */
+
+  /* border-bottom: 30px; */
+
+  /* display: inline-flex */
+
+  /* border-style: solid;
+  border-radius: 30px;
+  border-bottom: 90px; */
+
+  /* width: 462px; */
+
+  /* height: 587.15px;
   top: 104px;
-  left: -34px; */
+  left: -34px;  */
 }
 
 .logo {
+  /* position: absolute; */
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-align: center;
   color: #6070ff;
-  margin: 16px;
+  padding: 33px;
+  /* margin: 16px; */
+  margin-top: 11px;
+  margin-bottom: 20px;
+  margin-right: 24px;
+
+  
 }
 
-h2 {
+h1 {
+  position: absolute;
   width: 327px;
   height: 150px;
   font-family: 'Poppins', sans-serif;
-  top: 114px;
+  top: 319px;
   left: 24px;
   font-style: normal;
   font-weight: 700;
@@ -54,7 +74,7 @@ h2 {
 p {
   width: 327px;
   height: 146px;
-  top: 276px;
+  margin-top: -346px;
   left: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -67,11 +87,11 @@ p {
 }
 
 .social-icons {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   align-items: center;
   list-style: none;
-  padding: 15px;
+  padding: 13px;
   margin-top: 0.5rem;
 }
 
@@ -95,10 +115,26 @@ p {
   position: absolute;
   width: 24px;
   height: 24px;
-  top: 8px;
+  top: 51px;
   left: 8px;
-  margin-top: 118px;
-  margin-left: 290px;
+  margin-top: 70px;
+  margin-left: 334px;
 
   /* line-height: 20px; */
 }
+
+.header {
+  border: solid #b3bac5 0px;
+  border-radius: 0 0 0 65px;
+  
+
+  /* background: white; */
+
+  /* display: flex; */
+
+  /* display: inline; */
+
+  /* position: absolute;  */
+}
+
+
