@@ -350,7 +350,7 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
-  border-radius: 0 50px
+  border-radius: 0 50px;
 }
 
 .myself {
@@ -395,7 +395,7 @@ a {
   line-height: 24px;
 }
 
-.social-icons {
+.social-media-icons {
   padding-left: 0;
   width: 170.17px;
   display: flex;
