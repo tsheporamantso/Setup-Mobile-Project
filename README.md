@@ -115,9 +115,10 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: 
 
-Use git clone command to clone this repository or download ZIP
+Use git clone command to clone this repository or download ZIP(https://github.com/tsheporamantso/Setup-Mobile-Project.git)
+
 <!--
 Example commands:
 
@@ -235,7 +236,7 @@ If you like this project follow me on github
 
 
 
-I would like to thank Microverse for figma practice
+I would like to thank Microverse for figma tamplate and flexbox practice 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
