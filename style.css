@@ -60,7 +60,7 @@
   color: #7f8cff;
   margin-left: 15px;
   margin-bottom: -13px;
-  margin-top: -11px;
+  margin-top: -3px;
 }
 
 .menu-icon {
@@ -105,7 +105,7 @@
   position: relative;
   height: 490px;
   width: 327px;
-  border-radius: 16px;
+  border-radius: 20px;
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -455,8 +455,8 @@ a {
 .lang {
   position: relative;
   height: 24px;
-  top: 10px;
-  left: 20px;
+  top: 80px;
+  left: 46px;
   right: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -469,9 +469,9 @@ a {
 
 .dropdown {
   position: relative;
-  left: 85%;
+  left: 190%;
   right: 25%;
-  top: -25px;
+  top: 41px;
   bottom: 37.5%;
   color: #acb7c3;
 }
@@ -482,11 +482,13 @@ a {
   align-items: flex-start;
   padding: 12px;
   gap: 12px;
-  width: 302px;
+  width: 122px;
   height: 248.15px;
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-top: 80px;
+  margin-left: 31px;
 }
 
 .border {
@@ -522,4 +524,76 @@ a {
   line-height: 20px;
   color: #253858;
   list-style-type: none;
+}
+
+.first-frame {
+  position: relative;
+  top: -85px;
+  width: 285px;
+  height: 70px;
+  flex: none;
+  left: -10px;
+  order: 1;
+  list-style-type: none;
+}
+
+.frameworks {
+  position: relative;
+  left: -83px;
+  top: 28px;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.dd-right1 {
+  position: relative;
+  left: 140px;
+  top: 5px;
+}
+
+.line-separator1 {
+  position: relative;
+  flex: none;
+  left: 0;
+  top: 21px;
+}
+
+.second-frame {
+  position: relative;
+  width: 285px;
+  height: 70px;
+  flex: none;
+  left: -10px;
+  top: -85px;
+  order: 1;
+  list-style-type: none;
+}
+
+.skills {
+  position: relative;
+  left: -115px;
+  top: 35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  list-style-type: none;
+}
+
+.dd-right2 {
+  position: relative;
+  left: 140px;
+  top: 9px;
+}
+
+.line-separator2 {
+  position: relative;
+  flex: none;
+  left: 0;
+  top: 33px;
 }
