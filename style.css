@@ -229,7 +229,7 @@
 }
 
 .coding-lang {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   padding: 0;
   gap: 8px;
@@ -242,6 +242,7 @@
 }
 
 .html {
+  float: left;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -256,6 +257,7 @@
 }
 
 .css {
+  float: left;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -270,6 +272,7 @@
 }
 
 .javascript {
+  float: left;
   display: flex;
   flex-direction: row;
   justify-content: center;
