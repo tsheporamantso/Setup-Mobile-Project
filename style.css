@@ -5,6 +5,7 @@
   --clr-white: #fff;
   --clr-para: #344563;
   --clr-gray-100: #b3bac5;
+  --clr-navyblue: #172b4d
 }
 
 .logo {
@@ -14,7 +15,7 @@
   position: absolute;
   height: 48px;
   text-align: center;
-  color: #6070ff;
+  color: var(--clr-purple);
 }
 
 #h1 {
@@ -27,7 +28,7 @@
   font-size: 40px;
   line-height: 52px;
   padding-left: 20px;
-  color: #172b4d;
+  color: var(--clr-navyblue);
 }
 
 .paragraph {
@@ -36,7 +37,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
+  color: var(--clr-navyblue);
   margin-left: 16px;
   margin-top: -23px;
 }

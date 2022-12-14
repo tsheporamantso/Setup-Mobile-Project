@@ -191,9 +191,14 @@ Example:
 👤 **Author1**
 
 - GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
-- Twitter: [@ramgt001](https://twitter.com/home)
-- LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
+- Twitter: [@ramgt001](https://twitter.com/amzinggraceu)
+- LinkedIn: [Amarachi Dimkpa](https://www.linkedin.com/in/amarachi-dimkpa-070643183)
 
+👤 **Author2**
+
+- GitHub: [@Amazinggracee](https://github.com/Amazinggracee)
+- Twitter: [@Amazinggraceu](https://twitter.com/home)
+- LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
