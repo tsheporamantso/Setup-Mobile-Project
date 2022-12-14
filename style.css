@@ -722,13 +722,15 @@ input::placeholder {
   width: 108px;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
+
+  /* display: flex; */
   align-items: center;
   letter-spacing: 0.03em;
   color: #6070ff;
   border: 1px solid #fff;
   display: contents;
-  cursor: pointer;
+
+  /* cursor: pointer; */
 }
 
 .btn:hover {
