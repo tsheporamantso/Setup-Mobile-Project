@@ -36,15 +36,14 @@ html-css-branch
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal Portfolio  Mobile Site] <a name="about-project"></a>
+# 📖 [Personal Portfolio] <a name="about-project"></a>
 
 
 
-**[Personal Portfolio Mobile site]** is a figma and flexbox practice exercise 
+**[Personal Portfolio]** is about designing a mobile page of a personnal portfolio 
 
 ## 🛠 Built With <a name="built-with"></a>
-Figma tamplate
-HTML & CSS
+
 ### Tech Stack <a name="tech-stack"></a>
 
 
@@ -76,9 +75,9 @@ HTML & CSS
 
 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[display navigation bar]**
+- **[display social contact of the developer]**
+- **[show developer description]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,18 +187,11 @@ Example:
 
 
 
-👤 **Author1**
+👤 **Gladwin Tshepo Ramantso**
 
 - GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
-- Twitter: [@ramgt001](https://twitter.com/amzinggraceu)
-- LinkedIn: [Amarachi Dimkpa](https://www.linkedin.com/in/amarachi-dimkpa-070643183)
-
-👤 **Author2**
-
-- GitHub: [@Amazinggracee](https://github.com/Amazinggracee)
-- Twitter: [@Amazinggraceu](https://twitter.com/home)
+- Twitter: [@ramgt001](https://twitter.com/home)
 - LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,9 +201,9 @@ Example:
 
 
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[add javascript functionality]**
+- [ ] **[a page for resume]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,7 +223,7 @@ Feel free to check the [issues page](../../issues/).
 
 
 
-If you like this project follow me on github
+If you like this project follow me on github and give a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,7 +233,7 @@ If you like this project follow me on github
 
 
 
-I would like to thank Microverse for figma tamplate and flexbox practice 
+I would like to thank Microverse for the wonderful project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
