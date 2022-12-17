@@ -726,6 +726,14 @@ input::placeholder {
   margin-top: 5px;
   background: #fff;
   margin-left: 10px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.get-in-touch:hover {
+  background-color: rgb(202, 80, 80);
+  width: 120px;
+  height: 60px;
+  /* rotate: 180deg; */
 }
 
 .btn {
@@ -740,6 +748,7 @@ input::placeholder {
   color: #6070ff;
   border: 1px solid var(--clr-white);
   display: contents;
+  
 }
 
 .btn:hover {
@@ -846,6 +855,7 @@ input::placeholder {
     background-image: url("/images/Header\ bg.svg");
     background-repeat: no-repeat;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     position: absolute;
@@ -855,11 +865,12 @@ input::placeholder {
     top: 100px;
     border-radius: 0 0 0 70px;
     background-color: #fff;
+   
   }
 
   #h1 {
-    position: relative;
-    top: 0;
+    /* position: relative; */
+    margin-top: -10px;
     width: 600px;
     height: 120px;
     padding-left: 170px;
@@ -872,13 +883,14 @@ input::placeholder {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
-    margin-left: 40px;
+    margin-left: -219px;
   }
 
   .paragraph {
-    position: relative;
+    /* position: relative; */
 
     /* top: 40px; */
+    margin-left: -247px;
     padding-left: 200px;
     width: 920px;
     height: 98px;
@@ -891,7 +903,7 @@ input::placeholder {
   }
 
   .connect {
-    position: relative;
+    /* position: relative; */
     top: -35px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -901,13 +913,13 @@ input::placeholder {
     padding-left: 200px;
     color: #7f8cff;
     flex: none;
-    margin-left: 15px;
+    margin-left: -244px;
   }
 
   .social-icons {
-    position: relative;
-    top: -50px;
-    left: 201px;
+    /* position: relative; */
+    margin-top: -25px;
+    margin-left: -55px;
     width: 170.17px;
     height: fit-content;
     display: flex;
@@ -920,7 +932,7 @@ input::placeholder {
   .desktop-project-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     padding: 60px;
     gap: 142px;
     position: absolute;
@@ -1168,9 +1180,11 @@ input::placeholder {
     width: 124px;
     height: 48px;
     left: 0;
-    border: 1px solid #6070ff;
+    border: 1px solid #2230D2;
     border-radius: 8px;
     margin-top: 10px;
+    text-decoration: none;
+    /* background-color: #2230D2; */
   }
 
   .see-project:hover {
@@ -1184,7 +1198,7 @@ input::placeholder {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #396df2;
+    /* color: var(--clr-para); */
     flex: none;
     order: 0;
     flex-grow: 0;
