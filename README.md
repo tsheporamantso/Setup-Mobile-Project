@@ -1,12 +1,12 @@
-html-css-branch
+
 <a name="readme-top"></a>
 
 <div align="center">
-
+<!-- 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <br/> -->
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Personal Portfolio README</b></h3>
 
 </div>
 
@@ -36,44 +36,24 @@ html-css-branch
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal Portfolio] <a name="about-project"></a>
+# 📖 [Personal Portfolio] <a name="about-project">https://github.com/tsheporamantso/Setup-Mobile-Project</a>
 
 
 
-**[Personal Portfolio]** is about designing a mobile page of a personnal portfolio 
+**[Personal Portfolio]** is about designing a mobile and desktop page of a personnal portfolio.
+ In this project, I built the desktop version of my portfolio using media query:
+- [ ] Follow GitHub Flow
+- [ ] Fix Linters Errors
+- [ ] Use Grid and FlexBox
+- [ ] Follow HTML and CSS best practices
 
 ## 🛠 Built With <a name="built-with"></a>
-
+The entire project wasbuilt with only HTML5 and CSS3
 ### Tech Stack <a name="tech-stack"></a>
-
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-
 
 - **[display navigation bar]**
 - **[display social contact of the developer]**
@@ -87,15 +67,13 @@ html-css-branch
 
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://github.com/tsheporamantso/Setup-Mobile-Project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-
 
 To get a local copy up and running, follow these steps.
 
@@ -185,13 +163,17 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
 👤 **Gladwin Tshepo Ramantso**
 
 - GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
 - Twitter: [@ramgt001](https://twitter.com/home)
 - LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
+
+👤 **Amarachi Dimkpa**
+
+- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
+- Twitter: [@amazinggraceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [Amarachi Dimpka](https://www.linkedin.com/in/amarachi-dimpka-070643183)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,10 +181,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
-- [ ] **[add javascript functionality]**
-- [ ] **[a page for resume]**
+- [ ] **[add CSS Anamation and Transition]**
+- [ ] **[Add Javascript functionality]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -221,9 +201,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
-If you like this project follow me on github and give a star
+If you like this project follow me on github and give a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,17 +209,13 @@ If you like this project follow me on github and give a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
-I would like to thank Microverse for the wonderful project
+I would like to thank Microverse for the wonderful project, and also colleagues that I've collaborated with on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-
 
 - **[Question_1]**
 
@@ -263,5 +237,4 @@ _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## README
-master
+
