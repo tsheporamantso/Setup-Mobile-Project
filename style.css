@@ -803,7 +803,7 @@ input::placeholder {
     width: 100px;
     height: 40px;
     left: 100px;
-    top: 20px;
+    top: -8px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -822,8 +822,8 @@ input::placeholder {
     position: absolute;
     width: 259px;
     height: 40px;
-    left: 1080px;
-    top: 50px;
+    left: 1030px;
+    top: 20px;
     color: #000;
   }
 
@@ -844,6 +844,7 @@ input::placeholder {
 
   .headline {
     background-image: url("/images/Header\ bg.svg");
+    align-items: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -858,7 +859,6 @@ input::placeholder {
   }
 
   #h1 {
-    position: relative;
     top: 0;
     width: 600px;
     height: 120px;
@@ -872,13 +872,10 @@ input::placeholder {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
-    margin-left: 40px;
+    margin-left: -216px;
   }
 
   .paragraph {
-    position: relative;
-
-    /* top: 40px; */
     padding-left: 200px;
     width: 920px;
     height: 98px;
@@ -888,11 +885,12 @@ input::placeholder {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
+    margin-left: -241px;
   }
 
   .connect {
     position: relative;
-    top: -35px;
+    top: -24px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -901,13 +899,13 @@ input::placeholder {
     padding-left: 200px;
     color: #7f8cff;
     flex: none;
-    margin-left: 15px;
+    margin-left: -240px;
   }
 
   .social-icons {
     position: relative;
     top: -50px;
-    left: 201px;
+    left: -50px;
     width: 170.17px;
     height: fit-content;
     display: flex;
@@ -920,7 +918,6 @@ input::placeholder {
   .desktop-project-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 60px;
     gap: 142px;
     position: absolute;
