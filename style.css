@@ -731,13 +731,13 @@ input::placeholder {
 
 .get-in-touch:hover {
   background-color: rgb(202, 80, 80);
-  width: 120px;
+  width: 130px;
   height: 60px;
   /* rotate: 180deg; */
 }
 
 .get-in-touch:hover {
-  width: 120px;
+  width: 130px;
   height: 30px;
   background-color: #172b4d;
   animation-name: peer;
