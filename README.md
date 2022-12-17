@@ -1,14 +1,18 @@
+ media-queries-feature-branch
+
+
 final-mobile-version
 ## README
 html-css-branch
+ master
 <a name="readme-top"></a>
 
 <div align="center">
-
+<!-- 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <br/> -->
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Personal Portfolio README</b></h3>
 
 </div>
 
@@ -38,49 +42,28 @@ html-css-branch
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal Portfolio  Mobile Site] <a name="about-project"></a>
+# 📖 [Personal Portfolio] <a name="about-project">https://github.com/tsheporamantso/Setup-Mobile-Project</a>
 
 
 
-**[Personal Portfolio Mobile site]** is a figma and flexbox practice exercise 
+**[Personal Portfolio]** is about designing a mobile and desktop page of a personnal portfolio.
+ In this project, I built the desktop version of my portfolio using media query:
+- [ ] Follow GitHub Flow
+- [ ] Fix Linters Errors
+- [ ] Use Grid and FlexBox
+- [ ] Follow HTML and CSS best practices
 
 ## 🛠 Built With <a name="built-with"></a>
-Figma tamplate
-HTML & CSS
+The entire project wasbuilt with only HTML5 and CSS3
 ### Tech Stack <a name="tech-stack"></a>
-
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[display navigation bar]**
+- **[display social contact of the developer]**
+- **[show developer description]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,15 +73,13 @@ HTML & CSS
 
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://github.com/tsheporamantso/Setup-Mobile-Project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-
 
 To get a local copy up and running, follow these steps.
 
@@ -188,20 +169,17 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
-👤 **Author1**
+👤 **Gladwin Tshepo Ramantso**
 
 - GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
-- Twitter: [@ramgt001](https://twitter.com/amzinggraceu)
-- LinkedIn: [Amarachi Dimkpa](https://www.linkedin.com/in/amarachi-dimkpa-070643183)
-
-👤 **Author2**
-
-- GitHub: [@Amazinggracee](https://github.com/Amazinggracee)
-- Twitter: [@Amazinggraceu](https://twitter.com/home)
+- Twitter: [@ramgt001](https://twitter.com/home)
 - LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
 
+👤 **Amarachi Dimkpa**
+
+- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
+- Twitter: [@amazinggraceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [Amarachi Dimpka](https://www.linkedin.com/in/amarachi-dimpka-070643183)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,11 +187,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **[add CSS Anamation and Transition]**
+- [ ] **[Add Javascript functionality]**
 
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,9 +207,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
-If you like this project follow me on github
+If you like this project follow me on github and give a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,17 +215,13 @@ If you like this project follow me on github
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
-I would like to thank Microverse for figma tamplate and flexbox practice 
+I would like to thank Microverse for the wonderful project, and also colleagues that I've collaborated with on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-
 
 - **[Question_1]**
 
@@ -273,6 +243,10 @@ _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+media-queries-feature-branch
+
+
 ## README
+master
 master
 master
