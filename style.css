@@ -729,14 +729,6 @@ input::placeholder {
   transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
-/* .get-in-touch:hover {
-  background-color: rgb(202, 80, 80);
-  width: 130px;
-  height: 60px;
-
-  rotate: 180deg;
-} */
-
 .get-in-touch:hover {
   width: 130px;
   height: 30px;
