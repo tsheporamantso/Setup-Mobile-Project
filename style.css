@@ -726,6 +726,22 @@ input::placeholder {
   margin-top: 5px;
   background: #fff;
   margin-left: 10px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.get-in-touch:hover {
+  width: 130px;
+  height: 30px;
+  background-color: #172b4d;
+  animation-name: peer;
+  animation-duration: 4s;
+}
+
+@keyframes peer {
+  0% { background-color: #172b4d; }
+  25% { background-color: #396df2; }
+  50% { background-color: #7f8cff; }
+  100% { background-color: #cfd8dc; }
 }
 
 .btn {
@@ -859,6 +875,7 @@ input::placeholder {
   }
 
   #h1 {
+    margin-top: -10px;
     top: 0;
     width: 600px;
     height: 120px;
@@ -872,7 +889,7 @@ input::placeholder {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
-    margin-left: -216px;
+    margin-left: -209px;
   }
 
   .paragraph {
@@ -885,12 +902,12 @@ input::placeholder {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
-    margin-left: -241px;
+    margin-left: -236px;
   }
 
   .connect {
+    top: -20px;
     position: relative;
-    top: -24px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -899,13 +916,13 @@ input::placeholder {
     padding-left: 200px;
     color: #7f8cff;
     flex: none;
-    margin-left: -240px;
+    margin-left: -235px;
   }
 
   .social-icons {
     position: relative;
-    top: -50px;
-    left: -50px;
+    top: -47px;
+    left: -46px;
     width: 170.17px;
     height: fit-content;
     display: flex;
@@ -918,6 +935,8 @@ input::placeholder {
   .desktop-project-container {
     display: flex;
     flex-direction: column;
+
+    /* align-items: center; */
     padding: 60px;
     gap: 142px;
     position: absolute;
@@ -1165,9 +1184,12 @@ input::placeholder {
     width: 124px;
     height: 48px;
     left: 0;
-    border: 1px solid #6070ff;
+    border: 1px solid #2230d2;
     border-radius: 8px;
     margin-top: 10px;
+    text-decoration: none;
+
+    /* background-color: #2230D2; */
     background-color: #fff;
   }
 
@@ -1199,6 +1221,11 @@ input::placeholder {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
+
+    /* color: var(--clr-para); */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
     color: #396df2;
   }
 
