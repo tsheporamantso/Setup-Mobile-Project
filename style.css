@@ -819,7 +819,7 @@ input::placeholder {
     width: 100px;
     height: 40px;
     left: 100px;
-    top: 20px;
+    top: -8px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -838,8 +838,8 @@ input::placeholder {
     position: absolute;
     width: 259px;
     height: 40px;
-    left: 1080px;
-    top: 50px;
+    left: 1030px;
+    top: 20px;
     color: #000;
   }
 
@@ -860,6 +860,7 @@ input::placeholder {
 
   .headline {
     background-image: url("/images/Header\ bg.svg");
+    align-items: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -877,6 +878,7 @@ input::placeholder {
   #h1 {
     /* position: relative; */
     margin-top: -10px;
+    top: 0;
     width: 600px;
     height: 120px;
     padding-left: 170px;
@@ -897,6 +899,10 @@ input::placeholder {
 
     /* top: 40px; */
     margin-left: -247px;
+    margin-left: -216px;
+  }
+
+  .paragraph {
     padding-left: 200px;
     width: 920px;
     height: 98px;
@@ -906,11 +912,14 @@ input::placeholder {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
+    margin-left: -241px;
   }
 
   .connect {
     /* position: relative; */
     top: -35px;
+    position: relative;
+    top: -24px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -926,6 +935,13 @@ input::placeholder {
     /* position: relative; */
     margin-top: -25px;
     margin-left: -55px;
+    margin-left: -240px;
+  }
+
+  .social-icons {
+    position: relative;
+    top: -50px;
+    left: -50px;
     width: 170.17px;
     height: fit-content;
     display: flex;
@@ -938,7 +954,6 @@ input::placeholder {
   .desktop-project-container {
     display: flex;
     flex-direction: column;
-
     /* align-items: center; */
     padding: 60px;
     gap: 142px;
@@ -1193,14 +1208,32 @@ input::placeholder {
     text-decoration: none;
 
     /* background-color: #2230D2; */
+    background-color: #fff;
   }
 
-  .see-project:hover {
+  .project-link:hover {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 124px;
+    height: 48px;
+    left: 0;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #2230d2;
+    color: #fff;
+    padding-top: 12px;
+  }
+
+  .see-project {
     height: fit-content;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 24px;
     display: flex;
     align-items: center;
@@ -1211,6 +1244,23 @@ input::placeholder {
     flex: none;
     order: 0;
     flex-grow: 0;
+
+    color: #396df2;
+  }
+
+  .see-project:hover {
+    height: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background-color: #2230d2;
   }
 
   .about-myself {
