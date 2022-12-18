@@ -863,7 +863,6 @@ input::placeholder {
     align-items: center;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: center;
     position: absolute;
@@ -876,7 +875,6 @@ input::placeholder {
   }
 
   #h1 {
-    /* position: relative; */
     margin-top: -10px;
     top: 0;
     width: 600px;
@@ -891,15 +889,7 @@ input::placeholder {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
-    margin-left: -219px;
-  }
-
-  .paragraph {
-    /* position: relative; */
-
-    /* top: 40px; */
-    margin-left: -247px;
-    margin-left: -216px;
+    margin-left: -209px;
   }
 
   .paragraph {
@@ -912,14 +902,12 @@ input::placeholder {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
-    margin-left: -241px;
+    margin-left: -236px;
   }
 
   .connect {
-    /* position: relative; */
-    top: -35px;
+    top: -20px;
     position: relative;
-    top: -24px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -928,20 +916,13 @@ input::placeholder {
     padding-left: 200px;
     color: #7f8cff;
     flex: none;
-    margin-left: -244px;
-  }
-
-  .social-icons {
-    /* position: relative; */
-    margin-top: -25px;
-    margin-left: -55px;
-    margin-left: -240px;
+    margin-left: -235px;
   }
 
   .social-icons {
     position: relative;
-    top: -50px;
-    left: -50px;
+    top: -47px;
+    left: -46px;
     width: 170.17px;
     height: fit-content;
     display: flex;
@@ -954,6 +935,7 @@ input::placeholder {
   .desktop-project-container {
     display: flex;
     flex-direction: column;
+
     /* align-items: center; */
     padding: 60px;
     gap: 142px;
@@ -1244,7 +1226,6 @@ input::placeholder {
     flex: none;
     order: 0;
     flex-grow: 0;
-
     color: #396df2;
   }
 
