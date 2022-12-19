@@ -1532,7 +1532,7 @@ input::placeholder {
     top: 4200px;
     background: #6070ff;
     border-radius: 150px 0 0 0;
-    background-image: url("/images/contact\ form\ background\ shapes.svg");
+    background-image: url("./images/contact\ form\ background\ shapes.svg");
   }
 
   .info-head {
