@@ -86,7 +86,7 @@
 }
 
 .headline {
-  background-image: url("/images/header-shapes\ mobile.svg");
+  background-image: url("./images/header-shapes\ mobile.svg");
   font-family: 'Poppins', sans-serif;
   justify-content: center;
   height: 580px;
@@ -859,7 +859,7 @@ input::placeholder {
   }
 
   .headline {
-    background-image: url("/images/Header\ bg.svg");
+    background-image: url("./images/Header\ bg.svg");
     align-items: center;
     background-repeat: no-repeat;
     display: flex;
