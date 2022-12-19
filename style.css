@@ -735,7 +735,6 @@ input::placeholder {
   background-color: #172b4d;
   animation-name: peer;
   animation-duration: 4s;
-
 }
 
 @keyframes peer {
@@ -828,6 +827,7 @@ input::placeholder {
     line-height: 20px;
     text-align: center;
     color: #6070ff;
+
     /* animation: 3s infinite alternate slidein; */
   }
 
@@ -855,11 +855,11 @@ input::placeholder {
     left: 1030px;
     top: 20px;
     color: #000;
-    transition:  all 0.5s ease-in;
+    transition: all 0.5s ease-in;
   }
 
   .desktop-nav:hover {
-    background-color:#6070ff;
+    background-color: #6070ff;
     color: #fff;
   }
 
