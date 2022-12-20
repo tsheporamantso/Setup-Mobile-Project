@@ -917,6 +917,7 @@ input::placeholder {
 
   .desktop-project-container {
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 60px;
     gap: 142px;
