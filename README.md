@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal Portfolio] <a name="about-project">https://github.com/tsheporamantso/Setup-Mobile-Project</a>
+# 📖 [Personal Portfolio] 
 
 
 
@@ -64,9 +64,9 @@ The entire project wasbuilt with only HTML5 and CSS3
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
-
 - [ https://tsheporamantso.github.io/Setup-Mobile-Project/]
+
+- [ https://www.loom.com/share/bf9d3d907cdf431899be7fd83ec24459]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +93,8 @@ Example command:
 
 Clone this repository to your desired folder: 
 
-Use git clone command to clone this repository or download ZIP(https://github.com/tsheporamantso/Setup-Mobile-Project.git)
+Use git clone command to clone this repository or download ZIP
+(https://github.com/tsheporamantso/Setup-Mobile-Project.git)
 
 <!--
 Example commands:
@@ -146,7 +147,9 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: 
+
+Github pages
 
 <!--
 Example:
