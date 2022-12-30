@@ -800,7 +800,7 @@ img:hover {
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 1397px;
+    width: 1800px;
     height: 120px;
     left: 0;
     top: 0;
@@ -856,7 +856,7 @@ img:hover {
     position: absolute;
     width: 259px;
     height: 40px;
-    left: 1030px;
+    left: 1058px;
     top: 20px;
     color: #000;
   }
@@ -890,7 +890,7 @@ img:hover {
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    width: 1397px;
+    width: 1800px;
     height: 800px;
     gap: 50px;
     top: 100px;
@@ -899,7 +899,7 @@ img:hover {
   }
 
   #h1 {
-    margin-top: -10px;
+    margin-top: 10px;
     top: 0;
     width: 600px;
     height: 120px;
@@ -913,7 +913,7 @@ img:hover {
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
-    margin-left: -209px;
+    margin-left: -564px;
   }
 
   .paragraph {
@@ -926,7 +926,7 @@ img:hover {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
-    margin-left: -236px;
+    margin-left: -594px;
   }
 
   .connect {
@@ -940,13 +940,13 @@ img:hover {
     padding-left: 200px;
     color: #7f8cff;
     flex: none;
-    margin-left: -235px;
+    margin-left: -592px;
   }
 
   .social-icons {
     position: relative;
     top: -47px;
-    left: -46px;
+    left: -400px;
     width: 170.17px;
     height: fit-content;
     display: flex;
@@ -1273,7 +1273,7 @@ img:hover {
     align-items: center;
     gap: 24px;
     position: relative;
-    width: 1350px;
+    width: 1800px;
     height: 1125.15px;
     top: 3600px;
     background: #fff;
@@ -1346,7 +1346,7 @@ img:hover {
 
   .social-media-icons {
     position: relative;
-    top: -20px;
+    top: -10px;
     width: 170.17px;
     display: flex;
     justify-content: space-between;
@@ -1549,7 +1549,7 @@ img:hover {
     flex-wrap: wrap;
     align-items: center;
     position: absolute;
-    width: 1397px;
+    width: 1800px;
     height: 779px;
     left: 10px;
     top: 4200px;
