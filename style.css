@@ -21,7 +21,7 @@
 }
 
 .logo {
-  margin-top: 22px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -77,12 +77,14 @@
 }
 
 .menu-icon {
-  position: absolute;
-  top: 20px;
-  display: flex;
-  padding: 8px;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #7f8cff;
   margin-left: 315px;
-  margin-top: 2px;
 }
 
 .headline {
@@ -857,7 +859,7 @@ img:hover {
     width: 259px;
     height: 40px;
     left: 1058px;
-    top: 20px;
+    top: 10px;
     color: #000;
   }
 
