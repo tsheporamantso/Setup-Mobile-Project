@@ -5,7 +5,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/> -->
 
-  <h3><b>Personal Portfolio README</b></h3>
+  <h3><b>Personal Portfolio</b></h3>
 
 </div>
 
@@ -39,15 +39,17 @@
 
 
 
-**[Personal Portfolio]** is about designing a mobile and desktop page of a personnal portfolio.
+**[Personal Portfolio]** is about designing a mobile and desktop page of a personal portfolio.
  In this project, I built the desktop version of my portfolio using media query:
 - [ ] Follow GitHub Flow
 - [ ] Fix Linters Errors
 - [ ] Use Grid and FlexBox
+- [ ] Use JavaScript to manipulate DOM elements
 - [ ] Follow HTML and CSS best practices
+- [ ] Follow JavaScript best practices
 
 ## 🛠 Built With <a name="built-with"></a>
-The entire project wasbuilt with only HTML5 and CSS3
+The entire project was built with only HTML5, CSS3 and ES6
 ### Tech Stack <a name="tech-stack"></a>
 
 <!-- Features -->
@@ -177,6 +179,12 @@ Example:
 - Twitter: [@amazinggraceu](https://twitter.com/amazinggraceu)
 - LinkedIn: [Amarachi Dimpka](https://www.linkedin.com/in/amarachi-dimpka-070643183)
 
+👤 **Amarachi Dimkpa**
+
+- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
+- Twitter: [@amazinggraceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [Amarachi Dimpka](https://www.linkedin.com/in/amarachi-dimpka-070643183)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -184,7 +192,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[add CSS Anamation and Transition]**
-- [ ] **[Add Javascript functionality]**
+- [ ] **[Add Javascript functionality to manipulate DOM elements]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
