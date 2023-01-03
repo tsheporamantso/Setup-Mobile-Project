@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio Home Page</title>
     <link rel="stylesheet" href="style.css">
+    
 
 <body>    
     <header class="header">
         <nav class="nav">
             <img  class="logo" src="./images/Logo Placeholder.svg" alt="logo">
-
+            
             <div class="hamburger">
                 <span class="menu-icon"></span>   
                 <span class="menu-icon"></span>   
@@ -19,9 +20,9 @@
             </div>
             
             <ul class="desktop-nav">
-                <li><a class="navbar-tools" href="#">Portfolio</a></li>
-                <li><a class="navbar-tools" href="#">About</a></li>
-                <li><a class="navbar-tools" href="#">Contact</a></li>
+                <li><a class="navbar-tools" href="#portfolio">Portfolio</a></li>
+                <li><a class="navbar-tools" href="#about-me">About</a></li>
+                <li><a class="navbar-tools" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -63,7 +64,7 @@
         </div>
         </section>
 
-        <section class="projects-container">
+        <section id="portfolio" class="projects-container">
             <div class="project1">
                 <img src="./images/Snapshoot Portfolio.svg" alt="snapshoot of first project">
                 <div class="project-info">
@@ -303,7 +304,7 @@
             </div>
         </div>
 
-        <div class="about-myself">
+        <div id="about-me" class="about-myself">
             <section class="about-self-container">
                 <h1 class="myself">About <br >Myself</h1>
                 <p class="p1">Hello I'm a software developer! I can help you build a product , 
@@ -387,7 +388,7 @@
                </ul> 
         </div>
        
-        <div class="footer">
+        <div id="contact" class="footer">
             <img class="footer_img" src="./images/contact form shapes-mobile.svg" alt="footer-image">
             <h1 class="info-head">Contact Me</h1>
             <p class="paragraph_2">If you have an application you are interested in developing,
@@ -415,5 +416,6 @@
         </form>
         <img class="shape" src="./images/Shape.svg" alt="footer line">
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
