@@ -954,6 +954,7 @@ img:hover {
   }
 
   .navbar-tools {
+    top: -6px;
     width: 63px;
     height: 20px;
     font-family: "Poppins", sans-serif;
