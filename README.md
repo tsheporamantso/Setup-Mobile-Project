@@ -40,7 +40,7 @@
 
 
 **[Personal Portfolio]** is about designing a mobile and desktop page of a personal portfolio.
- In this project, I built the desktop version of my portfolio using media query:
+ In this project, I built the Desktop & Mobile version of my portfolio using HTML5, CSS3 & ES6:
 - [ ] Follow GitHub Flow
 - [ ] Fix Linters Errors
 - [ ] Use Grid and FlexBox
@@ -182,8 +182,8 @@ Example:
 👤 **Fatuma Hussein**
 
 - GitHub: [@fatmahussein](https://github.com/fatmahussein)
-- Twitter: [@](https://twitter.com/amazinggraceu)
-- LinkedIn: [](https://www.linkedin.com/in/amarachi-dimpka-070643183)
+- Twitter: [@FatmaHussein200](https://twitter.com/FatmaHussein200)
+- LinkedIn: [Fatuma Hussein](https://www.linkedin.com/in/fatuma-hussein-48149917b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
