@@ -20,20 +20,22 @@
   position: fixed;
   left: -100%;
   top: -30px;
+
   /* bottom: 0px; */
   gap: 0;
   flex-direction: column;
   background-color: #5464f5f5;
+
   /* mix-blend-mode: normal; */
   width: 57%;
   height: 100%;
+
   /* text-align: center; */
   transition: 0.3s;
 }
 
 .hamburger {
   z-index: 1;
-  
 }
 
 .desktop-nav.active {
@@ -98,9 +100,11 @@
 
 .navbar-tools {
   position: relative;
+
   /* right: 68px; */
   top: 60px;
-  margin: 40px 0 ;
+  margin: 40px 0;
+
   /* width: 251px; */
   height: 28px;
   font-family: "Poppins", sans-serif;
@@ -109,8 +113,11 @@
   font-size: 32px;
   line-height: 44px;
   display: flex;
+
   /* margin-top: 90px; */
+
   /* justify-content: start; */
+
   /* align-items: flex-start;
   text-align: start; */
   color: #fff;
@@ -148,17 +155,17 @@
   margin-bottom: 10px;
 }
 
-.hamburger.active .menu-icon:nth-child(2){
+.hamburger.active .menu-icon:nth-child(2) {
   opacity: 0;
   background-color: #fff;
 }
 
-.hamburger.active .menu-icon:nth-child(1){
+.hamburger.active .menu-icon:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
   background-color: #fff;
 }
 
-.hamburger.active .menu-icon:nth-child(3){
+.hamburger.active .menu-icon:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
   background-color: #fff;
 }
