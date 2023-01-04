@@ -841,8 +841,8 @@ img:hover {
 }
 
 .mobile-popup {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 80%;
   position: fixed;
   background-color: rgb(0,0,0,30%);
   top: 0%;
@@ -860,23 +860,17 @@ img:hover {
   padding: 16px;
   gap: 12px;
   position: fixed;
-  top: 20%;
-  left: 21.3%;
+  top: 3%;
+  left: 0%;
   width: 343px;
   height: 713px;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 10px;
-  /* transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
-  z-index: 10; */
+
 }
 
-/* .modal.active {
-  transform: translate(-50%, -50%) scale(1);
-
-} */
 
 .popup-header {
   display: flex;
@@ -1113,23 +1107,13 @@ img:hover {
   flex-grow: 0;
 }
 
-/* #overlay {
-  position: absolute;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  mix-blend-mode: color-dodge;
-  background-color: rgb(0, 0, 0,30%);
-  pointer-events: none;
-} */
+#line-pop {
+position: relative;
+width: 303px;
+top: -50px;
+background-color: #ebecf0;
+}
 
-/* #overlay.active {
-  opacity: 1;
-  pointer-events: all;
-} */
 
 @media screen and (min-width: 768px) {
   html {
@@ -1188,20 +1172,7 @@ img:hover {
     text-align: center;
     color: #6070ff;
 
-    /* animation: 3s infinite alternate slidein; */
   }
-
-  /* @keyframes slidein {
-    from {
-      width:300%;
-      margin-left: 100%;
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  } */
 
   .desktop-nav {
     display: flex;
@@ -1219,8 +1190,6 @@ img:hover {
   }
 
   .desktop-nav:hover {
-    /* background-color: #6070ff;
-    color: #fff; */
     transform: scale(1.06);
   }
 
