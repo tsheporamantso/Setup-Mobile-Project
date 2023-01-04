@@ -844,14 +844,13 @@ img:hover {
   width: 50%;
   height: 80%;
   position: fixed;
-  background-color: rgb(0,0,0,30%);
+  background-color: rgb(0, 0, 0, 30%);
   top: 0%;
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
   display: flex;
   justify-content: center;
-
 }
 
 .modal {
@@ -868,9 +867,7 @@ img:hover {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 10px;
-
 }
-
 
 .popup-header {
   display: flex;
@@ -999,7 +996,7 @@ img:hover {
   border-radius: 8px;
   flex: none;
   order: 0;
-  flex-grow: 0
+  flex-grow: 0;
 }
 
 .popup-css {
@@ -1038,7 +1035,8 @@ img:hover {
   display: flex;
   align-items: center;
   flex-direction: row;
-    /* justify-content: space-between; */
+
+  /* justify-content: space-between; */
 }
 
 .see-live-container-btn {
@@ -1057,7 +1055,7 @@ img:hover {
   border-radius: 8px;
 }
 
-.see-live-btn:hover {  
+.see-live-btn:hover {
   height: fit-content;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -1090,7 +1088,7 @@ img:hover {
   border-radius: 8px;
 }
 
-.see-source-btn:hover { 
+.see-source-btn:hover {
   height: fit-content;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -1108,12 +1106,11 @@ img:hover {
 }
 
 #line-pop {
-position: relative;
-width: 303px;
-top: -50px;
-background-color: #ebecf0;
+  position: relative;
+  width: 303px;
+  top: -50px;
+  background-color: #ebecf0;
 }
-
 
 @media screen and (min-width: 768px) {
   html {
@@ -1171,7 +1168,6 @@ background-color: #ebecf0;
     line-height: 20px;
     text-align: center;
     color: #6070ff;
-
   }
 
   .desktop-nav {
