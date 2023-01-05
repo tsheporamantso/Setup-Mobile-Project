@@ -56,12 +56,12 @@ btn.addEventListener('click', () => {
                         <hr id="line-pop">
                         <div class="btn-container">
                         <button class="see-live-container-btn">
-                            <a href="#" class="see-live-btn">See live
+                            <a id="btn-icon" href="#" class="see-live-btn">See live &nbsp
                                 <img src="./images/Icon.svg" alt="see-live-icon">
                             </a>
                         </button>
                         <button class="see-source-container-btn">
-                            <a href="#" class="see-source-btn">See Source
+                            <a id="btn-icon" href="#" class="see-source-btn">See Source &nbsp
                                 <img src="./images/github-icon.svg" alt="see-source-icon">
                             </a>
                         </button>

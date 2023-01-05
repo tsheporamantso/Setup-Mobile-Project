@@ -16,6 +16,7 @@
   display: none;
 }
 
+
 .desktop-nav {
   position: fixed;
   left: -100%;
@@ -802,10 +803,21 @@ input::placeholder {
 }
 
 @keyframes peer {
-  0% { background-color: #172b4d; }
-  25% { background-color: #396df2; }
-  50% { background-color: #7f8cff; }
-  100% { background-color: #cfd8dc; }
+  0% {
+    background-color: #172b4d;
+  }
+
+  25% {
+    background-color: #396df2;
+  }
+
+  50% {
+    background-color: #7f8cff;
+  }
+
+  100% {
+    background-color: #cfd8dc;
+  }
 }
 
 .btn {
@@ -860,7 +872,7 @@ img:hover {
   gap: 12px;
   position: fixed;
   top: 3%;
-  left: 0%;
+  left: 1%;
   width: 343px;
   height: 713px;
   background-color: #fff;
@@ -1079,9 +1091,7 @@ img:hover {
   display: flex;
   box-sizing: border-box;
   align-items: center;
-  padding: 12px;
   gap: 10px;
-  width: 124px;
   height: 48px;
   left: 0;
   border: 1px solid #6070ff;
@@ -1111,6 +1121,21 @@ img:hover {
   top: -50px;
   background-color: #ebecf0;
 }
+
+#btn-icon {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  text-decoration: none;
+}
+
 
 @media screen and (min-width: 768px) {
   html {
@@ -1957,5 +1982,64 @@ img:hover {
 
   img:hover {
     transform: scale(1.04);
+  }
+
+  .desktop-popup {
+    width: 50%;
+    height: 80%;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 30%);
+    top: 0%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop-modal {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+    position: fixed;
+    top: 3%;
+    left: 1%;
+    width: 343px;
+    height: 713px;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin: 10px;
+  }
+
+  .desktop-popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .desktop-pop-header {
+  position: relative;
+  top: -30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  width: 259px;
+  color: #172b4d
+  }
+
+  .desktop-close-btn {
+  position: relative;
+  top: -30px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #67798e;
   }
 }
