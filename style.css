@@ -1125,10 +1125,26 @@ img:hover {
   text-decoration: none;
 }
 
+.small {
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  font-size: 12px;
+  position: relative;
+  left: 40px;
+}
+
 @media screen and (min-width: 768px) {
   html {
     box-sizing: border-box;
     font-size: 100%;
+  }
+
+  .small {
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-size: 12px;
+    position: relative;
+    left: 40px;
   }
 
  
