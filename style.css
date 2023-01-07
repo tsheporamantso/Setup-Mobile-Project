@@ -2220,6 +2220,7 @@ img:hover {
     flex-grow: 0;
   }
 
+
   /*
   .dtop-ruby {
     float: left;
@@ -2239,6 +2240,26 @@ img:hover {
   } */
 
   .dtop-ruby {
+
+  /* .dtop-ruby {
+    float: left;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 4px 12px;
+    height: fit-content;
+    background: #ebebff;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  } */
+
+  .dtop-ruby {
+
     position: relative;
     top: -70px;
     display: flex;
