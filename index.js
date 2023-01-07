@@ -31,7 +31,6 @@ function checkInputs(event) {
     return true;
   }
 
-  // setErrorFor('Invalid Email, it should only contain lowercase');
   document.querySelector('.small').innerHTML = 'Invalid email. It should only contain lowercace';
   event.preventDefault();
   return false;
