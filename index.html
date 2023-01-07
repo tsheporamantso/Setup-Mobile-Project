@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio Home Page</title>
     <link rel="stylesheet" href="style.css">
+</head>
     
 
 <body>    
@@ -395,20 +396,21 @@
                 a feature that you need built or a project that needs coding. I'd love to help with it 
             </p>
 
-        <form action="https://formspree.io/f/moqbgzon" target="_blank" method="post">
+        <form action="https://formspree.io/f/moqbgzon" target="_blank" method="post" id="form">
             <ul class="form">
                 <li>
                     <label for="name"></label>
-                    <input type="text" name="fullName" class="name" placeholder="Yeremians" required maxlength="30">
+                    <input type="text" name="fullName" class="name" placeholder="Yeremians" required maxlength="30" id="username">
                 </li>
                 <li>
                     <label for="mail"></label>
-                    <input type="email" name="email" class="email" required placeholder="natajayanj14@gmail.com">
+                    <input type="email" name="email" class="email" required placeholder="natajayanj14@gmail.com" id="email">
                 </li>
                 <li>
                     <label for="msg"></label>
                     <textarea name="user_message" name="textarea" class="msg" placeholder="Write your message here" required maxlength="500"></textarea>
                 </li>
+                <small class="small"></small>
                 <li class="get-in-touch">
                     <button  class="btn" type="submit">Get in touch</button>
                 </li>
@@ -416,6 +418,77 @@
         </form>
         <img class="shape" src="./images/Shape.svg" alt="footer line">
         </div>
+
+
+    <!-- <div class="dtop-title">
+        <h1 class ="dtop-card-title">Tonic</h1>
+        <button class="dtop-close-btn">&times;</button>
+    </div>
+
+   <ul class="dtop-card-list">
+   <li class="card-title">CANOPY</li>
+   <li>
+    <img class="dtop-dot1" src="./images/Counter.svg" alt="dtop-dot"> 
+   </li>
+   <li class="dtop-dev">Back End Dev</li>
+   <li>
+    <img class="dtop-dot2" src="./images/Counter.svg" alt="dtop-dot">
+   </li>
+   <li class="dtop-year">2015</li>
+   </ul>
+
+   <img id="two" class="dtop-card-img" src="./images/Desktop Snapshoot Portfolio.svg" alt="Desktop-Card-Image">
+
+        <p class="dtop-description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea 
+        </p>
+        <div class="dtop-body-container">
+        <ul class="dtop-coding-lang">
+            <li class="dtop-html">
+                <a href="#">html</a>
+            </li>
+
+            <li class="dtop-css">
+                <a href="#">css</a>
+            </li>
+
+            <li class="dtop-js">
+                <a href="#">JavaScript</a>
+            </li>
+
+            <li class="dtop-github">
+                <a href="#">github</a>
+            </li>
+
+            <li class="dtop-ruby">
+                <a href="#">ruby</a>
+            </li>
+
+            <li class="dtop-bootstraps">
+                <a href="#">Bootstraps</a>
+            </li>
+        </ul>
+
+        <div class="dtop-btn-container">
+            <button class="dtop-see-live">
+                <a id="dtop-btn-icon" class="dtop-see-live-btn" href="#">See live &nbsp;
+                    <img src="./images/Icon.svg" alt="see-live-icon">
+                </a>
+            </button>
+
+            <button class="dtop-See-Source">
+                <a id="dtop-btn-icon" class="dtop-see-live-btn" href="#">See Source &nbsp;
+                    <img src="./images/github.svg" alt="see-source-icon">
+                </a>
+            </button>
+        </div>
+        </div> -->
+   
+        <script src="script.js"></script>
         <script src="index.js"></script>
     </body>
 </html>
