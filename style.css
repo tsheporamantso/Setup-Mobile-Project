@@ -1142,7 +1142,7 @@ img:hover {
   .small {
     font-family: 'Poppins', sans-serif;
     color: red;
-    font-size: 12px;
+    font-size: 12px; 
     position: relative;
     left: 40px;
   }
