@@ -38,21 +38,21 @@ function checkInputs(event) {
 
 form.addEventListener('submit', checkInputs);
 
-form.addEventListener('input', () => {
-  // Retrieving data input
-  const data = {
-    name: document.getElementById('username').value,
-    email: document.getElementById('email').value,
-    text: document.getElementById('text').value,
+const fullName = document.querySelector('#username');
+const feedback = document.querySelector('.msg');
+function visitorData() {
+  const visitor = {
+    Name: fullName.value,
+    Email: email.value,
+    Message: feedback.value,
   };
-
-  // Make all data as string
-  const dataStore = JSON.stringify(data);
-  // Storing data
-  localStorage.setItem('data', dataStore);
-});
-
-const getData = JSON.parse(localStorage.getItem('data'));
-document.getElementById('username').value = getData.name;
-document.getElementById('email').value = getData.email;
-document.getElementById('text').value = getData.text;
+  localStorage.setItem('visitor', JSON.stringify(visitor));
+}
+[fullName, email, feedback].forEach((input) => input.addEventListener('focusout', visitorData));
+// retrieve data from local storage
+const visitorDataExist = JSON.parse(localStorage.getItem('visitor'));
+if (visitorDataExist) {
+  fullName.value = visitorDataExist.Name;
+  email.value = visitorDataExist.Email;
+  feedback.value = visitorDataExist.Message;
+}
