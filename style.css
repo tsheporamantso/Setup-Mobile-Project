@@ -1146,7 +1146,6 @@ img:hover {
     left: 3px;
   }
 
-
   body {
     background-color: #e5e5e5;
   }
@@ -2221,6 +2220,7 @@ img:hover {
     flex-grow: 0;
   }
 
+  /*
   .dtop-ruby {
     float: left;
     position: relative;
@@ -2236,7 +2236,7 @@ img:hover {
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
+  } */
 
   .dtop-ruby {
     position: relative;
@@ -2317,7 +2317,7 @@ img:hover {
     border-radius: 8px;
   }
 
-  .dtop-see-live-btn:hover {
+  .dtop-see-Source-btn:hover {
     height: fit-content;
     font-family: "Poppins", sans-serif;
     font-style: normal;
