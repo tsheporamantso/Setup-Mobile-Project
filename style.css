@@ -1125,6 +1125,10 @@ img:hover {
   text-decoration: none;
 }
 
+.desktop-pops {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   html {
     box-sizing: border-box;
@@ -1139,7 +1143,7 @@ img:hover {
   .footer_img,
   .menu-icon,
   .projects-container,
-  .mobile-popup{
+  .mobile-popup {
     display: none;
   }
 
@@ -1990,14 +1994,14 @@ img:hover {
   }
 
   .desktop-pops {
-    width: 50%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     position: fixed;
     background-color: rgb(0, 0, 0, 30%);
     top: 0%;
-    padding-top: 5%;
+    /* padding-top: 5%;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 5%; */
     display: flex;
     justify-content: center;
   }
@@ -2008,10 +2012,10 @@ img:hover {
     padding: 16px;
     gap: 12px;
     position: fixed;
-    top: 3%;
-    left: 1%;
-    width: 343px;
-    height: 713px;
+    top: 0%;
+    left: 10%;
+    width: 1145px;
+    height: 1000px;
     background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -2118,6 +2122,8 @@ img:hover {
     position: relative;
     top: -30px;
     left: 0px;
+    height: 380px;
+    /* width: 100%; */
   }
 
   .dtop-body-container {
@@ -2140,7 +2146,7 @@ img:hover {
   }
 
   .dtop-html {
-  float: left;
+  float: right;
   position: relative;
   top: -70px;
   display: flex;
@@ -2157,7 +2163,7 @@ img:hover {
   }
 
   .dtop-css {
-  float: left;
+  /* float: left; */
   position: relative;
   top: -70px;
   display: flex;
@@ -2174,6 +2180,7 @@ img:hover {
   }
 
   .dtop-js {
+  float: left;
   position: relative;
   top: -70px;
   display: flex;
@@ -2206,22 +2213,6 @@ img:hover {
   flex-grow: 0;
   }
 
-  .dtop-ruby {
-  float: left;
-  position: relative;
-  top: -70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-  padding: 4px 12px;
-  height: fit-content;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  }
   .dtop-ruby {
   position: relative;
   top: -70px;
@@ -2332,9 +2323,35 @@ img:hover {
   text-decoration: none;
   }
 
-
-
-
+  /* .dtop-btn {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 124px;
+    height: 48px;
+    left: 0;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+  
+  .dtop-btn:hover {
+    height: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  } */
 
 
 
