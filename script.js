@@ -64,7 +64,7 @@ btn.addEventListener('click', () => {
   });
 });
 
-const open = document.querySelector('.desktop-project');
+const open = document.querySelector('#popup-btn');
 
 open.addEventListener('click', () => {
   const mains = document.createElement('div');
@@ -90,7 +90,7 @@ open.addEventListener('click', () => {
 </ul>
 
 <img id="two" class="dtop-card-img" src="./images/Desktop Snapshoot Portfolio.svg" alt="Desktop-Card-Image">
-
+<div class="dtop-body-container">
   <p class="dtop-description">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -98,7 +98,7 @@ open.addEventListener('click', () => {
       Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea 
   </p>
-  <div class="dtop-body-container">
+  
   <ul class="dtop-coding-lang">
       <li class="dtop-html">
           <a href="#">html</a>
