@@ -8,10 +8,9 @@
   --clr-navyblue: #172b4d;
 }
 
-.desktop-project-container{
+.desktop-project-container {
   display: none;
 }
-
 
 .desktop-img {
   display: none;
@@ -1135,7 +1134,6 @@ img:hover {
     font-size: 100%;
   }
 
- 
   body {
     background-color: #e5e5e5;
   }
@@ -1999,13 +1997,14 @@ img:hover {
     position: fixed;
     background-color: rgb(0, 0, 0, 30%);
     top: 0%;
+
     /* padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%; */
     display: flex;
     justify-content: center;
   }
-  
+
   .desktop-modal {
     box-sizing: border-box;
     align-items: center;
@@ -2019,230 +2018,231 @@ img:hover {
     background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
+
     /* margin: 10px; */
   }
 
   .dtop-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .dtop-card-title {
-  position: relative;
-  top: -30px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  width: 259px;
-  color: #172b4d;
+    position: relative;
+    top: -30px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    width: 259px;
+    color: #172b4d;
   }
 
   .dtop-close-btn {
-  position: relative;
-  top: -30px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #67798e;
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #67798e;
   }
 
   .dtop-card-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .card-title {
-  width: 59px;
-  height: fit-content;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  color: #344563;
-  position: relative;
-  top: -52px;
-  left: -6px;
-  padding: fit;
-  margin: 0;
-  list-style-type: none;
+    width: 59px;
+    height: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #344563;
+    position: relative;
+    top: -52px;
+    left: -6px;
+    padding: fit;
+    margin: 0;
+    list-style-type: none;
   }
 
   .dtop-dot1 {
-  position: relative;
-  top: -54px;
-  left: -4px;
-  list-style-type: none;
+    position: relative;
+    top: -54px;
+    left: -4px;
+    list-style-type: none;
   }
 
   .dtop-dev {
-  position: relative;
-  top: -52px;
-  left: 10px;
-  width: 88px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-  flex-grow: 1;
-  list-style: none;
+    position: relative;
+    top: -52px;
+    left: 10px;
+    width: 88px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    flex-grow: 1;
+    list-style: none;
   }
 
   .dtop-dot2 {
-  position: relative;
-  top: -54px;
-  left: -805px;
-  list-style-type: none;
+    position: relative;
+    top: -54px;
+    left: -805px;
+    list-style-type: none;
   }
 
   .dtop-year {
-  position: relative;
-  top: -52px;
-  left: -780px;
-  width: 29px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-  list-style: none;
+    position: relative;
+    top: -52px;
+    left: -780px;
+    width: 29px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    list-style: none;
   }
 
   .dtop-card-img {
     position: relative;
     top: -30px;
-    left: 0px;
+    left: 0;
     height: 380px;
+
     /* width: 100%; */
   }
 
   .dtop-body-container {
-    display:flex;
+    display: flex;
     flex-direction: row;
     gap: 30px;
-    
   }
 
   .dtop-description {
-  position: relative;
-  top: -45px;
-  height: fit-content;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
+    position: relative;
+    top: -45px;
+    height: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
   }
 
   .dtop-html {
-  float: right;
-  position: relative;
-  top: -70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-  padding: 4px 12px;
-  height: fit-content;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+    float: right;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 4px 12px;
+    height: fit-content;
+    background: #ebebff;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .dtop-css {
-  /* float: left; */
-  position: relative;
-  top: -70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-  padding: 4px 12px;
-  height: fit-content;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+    /* float: left; */
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 4px 12px;
+    height: fit-content;
+    background: #ebebff;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .dtop-js {
-  float: left;
-  position: relative;
-  top: -70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-  padding: 4px 12px;
-  height: fit-content;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+    float: left;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 4px 12px;
+    height: fit-content;
+    background: #ebebff;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .dtop-github {
-  float: left;
-  position: relative;
-  top: -70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-  padding: 4px 12px;
-  height: fit-content;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+    float: left;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 4px 12px;
+    height: fit-content;
+    background: #ebebff;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .dtop-ruby {
-  position: relative;
-  top: -70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-  padding: 4px 12px;
-  height: fit-content;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 4px 12px;
+    height: fit-content;
+    background: #ebebff;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .dtop-bootstraps {
-  position: relative;
-  top: -70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-  padding: 4px 12px;
-  height: fit-content;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 4px 12px;
+    height: fit-content;
+    background: #ebebff;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .dtop-see-live {
@@ -2260,7 +2260,7 @@ img:hover {
     border: 1px solid #6070ff;
     border-radius: 8px;
   }
-  
+
   .dtop-see-live-btn:hover {
     height: fit-content;
     font-family: "Poppins", sans-serif;
@@ -2291,8 +2291,8 @@ img:hover {
     border: 1px solid #6070ff;
     border-radius: 8px;
   }
-  
-  .dtop-see-live-btn:hover {
+
+  .dtop-See-Source-btn:hover {
     height: fit-content;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -2310,17 +2310,17 @@ img:hover {
   }
 
   #dtop-btn-icon {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    text-decoration: none;
   }
 
   /* .dtop-btn {
@@ -2335,7 +2335,7 @@ img:hover {
     border: 1px solid #6070ff;
     border-radius: 8px;
   }
-  
+
   .dtop-btn:hover {
     height: fit-content;
     font-family: "Poppins", sans-serif;
@@ -2352,7 +2352,4 @@ img:hover {
     order: 0;
     flex-grow: 0;
   } */
-
-
-
 }
