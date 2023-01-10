@@ -1128,6 +1128,14 @@ img:hover {
   display: none;
 }
 
+.small {
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  font-size: 15px;
+  position: relative;
+  left: 3px;
+}
+
 @media screen and (min-width: 768px) {
   html {
     box-sizing: border-box;
@@ -2322,6 +2330,7 @@ img:hover {
     color: #396df2;
     text-decoration: none;
   }
+
 
   /* .dtop-btn {
     display: flex;
